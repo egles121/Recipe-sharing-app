@@ -18,25 +18,10 @@ public class CommentConfig {
                     1L,
                     1L,
                     1L,
-                    "this is great"
+                    "test comment"
             );
-
-            Comment comment2 = new Comment(
-                    2L,
-                    2L,
-                    1L,
-                    "delicious!"
-            );
-
-            Comment comment3 = new Comment(
-                    3L,
-                    1L,
-                    1L,
-                    "in the end this recipe didn't work out for me :("
-            );
-
             repository.saveAll(
-                    List.of(comment1, comment2, comment3));
+                    List.of(comment1));
         };
     }
 }
