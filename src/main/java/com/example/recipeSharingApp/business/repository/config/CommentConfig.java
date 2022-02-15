@@ -10,7 +10,7 @@ import java.util.List;
 
 @Configuration
 public class CommentConfig {
-
+/*
     @Bean
     CommandLineRunner commandLineRunner(CommentRepository repository) {
         return args -> {
@@ -23,5 +23,5 @@ public class CommentConfig {
             repository.saveAll(
                     List.of(comment1));
         };
-    }
+    }*/
 }

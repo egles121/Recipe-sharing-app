@@ -2,7 +2,6 @@ package com.example.recipeSharingApp.business.service;
 
 import com.example.recipeSharingApp.model.Comment;
 
-import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
